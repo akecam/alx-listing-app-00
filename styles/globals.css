@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+  --color-primary: #34967c;
+}
+/* body {
+  background-color: var(--color-primary);
+} */
