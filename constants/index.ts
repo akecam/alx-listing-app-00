@@ -1,4 +1,5 @@
 import { PropertyProps, MenuProps } from "@/interfaces";
+import Image_one from "@/public/assets/Image_1.png";
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {
@@ -381,3 +382,5 @@ export const MENUITEMS: MenuProps[] = [
     sub: "Add guest",
   },
 ];
+
+export const HeroImage = Image_one;
