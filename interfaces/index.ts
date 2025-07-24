@@ -1,16 +1,23 @@
-interface User {
-    // User interfaces
+// Property interface
+export interface PropertyProps {
+  name: string;
+  address: AddressProps;
+  rating: number;
+  category: string[];
+  price: number;
+  offers: OfferProps;
+  image: string;
+  discount: string;
 }
 
-
-interface Guest {
-    // Guest interface
+export interface AddressProps {
+  state: string;
+  city: string;
+  country: string;
 }
 
-interface Admin {
-    // Admin interface
-}
-
-interface Property {
-    // Property interface
+export interface OfferProps {
+  bed: string;
+  shower: string;
+  occupants: string;
 }
