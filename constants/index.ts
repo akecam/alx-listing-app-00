@@ -1,3 +1,5 @@
+import { PropertyProps, MenuProps } from "@/interfaces";
+
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
   {
     name: "Villa Ocean Breeze",
@@ -358,5 +360,24 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: "https://example.com/image20.jpg",
     discount: "",
+  },
+];
+
+export const MENUITEMS: MenuProps[] = [
+  {
+    main: "Location",
+    sub: "Search for destination",
+  },
+  {
+    main: "Check in",
+    sub: "Add date",
+  },
+  {
+    main: "Check out",
+    sub: "Add date",
+  },
+  {
+    main: "People",
+    sub: "Add guest",
   },
 ];

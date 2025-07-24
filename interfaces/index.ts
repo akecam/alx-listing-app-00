@@ -21,3 +21,12 @@ export interface OfferProps {
   shower: string;
   occupants: string;
 }
+
+export interface MenuProps {
+  main: string;
+  sub: string;
+}
+
+export type MenuItemsProps = {
+  menuItems: MenuProps[];
+};
